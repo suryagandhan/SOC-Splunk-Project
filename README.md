@@ -43,6 +43,21 @@ The attack discovered was an **Apache Struts2 Remote Code Execution (CVE-2018-11
 
 ---
 
+## 📦 Dataset
+
+**BOTS v3 (Boss of the SOC) Dataset**
+
+- 🔗 **Dataset:** [Splunk BOTS v3 GitHub](https://github.com/splunk/botsv3)
+- 📊 **Total Events:** 1,754,353
+- 📅 **Incident Date:** August 20, 2018
+- 🏢 **Fictional Company:** Frothly Inc.
+
+> This dataset contains real attack logs from a 
+> simulated enterprise environment used in 
+> Splunk's Boss of the SOC competition worldwide.
+
+---
+
 ## 📂 Repository Structure
 
 ```

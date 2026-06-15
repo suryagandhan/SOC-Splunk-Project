@@ -1,0 +1,5 @@
+index=botsv3 earliest=0 sourcetype="stream:http"
+http_method=POST
+| stats count by uri_path, src_ip
+| sort -count
+| head 20

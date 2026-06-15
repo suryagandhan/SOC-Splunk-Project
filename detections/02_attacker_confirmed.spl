@@ -1,0 +1,5 @@
+index=botsv3 earliest=0 sourcetype="stream:http"
+uri_path="/frothlyinventory/integration/saveGangster.action"
+http_method=POST
+| table _time, src_ip, form_data
+| sort _time

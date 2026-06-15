@@ -1,0 +1,6 @@
+index=botsv3 earliest=0 sourcetype="stream:http"
+src_ip="192.168.8.103" http_method=POST
+| rex field=form_data "cmd='(?P<command>[^']+)'"
+| where isnotnull(command)
+| table _time, command
+| sort _time
